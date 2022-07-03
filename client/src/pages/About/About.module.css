@@ -1,0 +1,66 @@
+.About {
+  width: 100%;
+}
+.About_title {
+  display: flex;
+  align-items: center;
+}
+.About_img {
+  background: url("../../../public/img/mans_bg.png") no-repeat center top /
+    cover;
+}
+.About_title p {
+  width: 659px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 150%;
+  color: #ff6633;
+}
+
+.About_text_bottom {
+  width: 30%;
+  min-height: 300px;
+  margin-top: 121px;
+}
+.About_text_bottom h3 {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 150%;
+  color: #414141;
+  margin-bottom: 16px;
+}
+
+
+.About_text_bottom h4{
+  font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 150%;
+color: #414141;
+}
+
+.About_thenks__{
+
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-evenly;
+  margin: 10px 0 83px;
+
+}
+.About_thenks{
+  width: 800px;
+  height: auto;
+  padding: 30px 40px ;
+
+  font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 150%;
+color: #70C05B;
+background: #E5FFDE;
+border-radius: 16px;
+
+}

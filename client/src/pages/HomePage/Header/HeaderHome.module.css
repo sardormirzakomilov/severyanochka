@@ -1,0 +1,15 @@
+.HeaderHome {
+  background: url("../../../../public/img/Sliders.png") no-repeat center center /
+    cover;
+    margin-bottom: 80px;
+}
+
+.HeaderHome .head_title h1 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 150%;
+  text-align: center;
+  color: #414141;
+}
+
