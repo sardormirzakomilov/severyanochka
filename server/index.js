@@ -1,24 +1,14 @@
 const express = require("express");
 const app = express();
-const path = require("path");
+require("./helper/db")();
 
-require("dotenv").config();
-
-const mastersRouter = require("./router/master");
-app.use("/", mastersRouter);
 app.use(express.json());
-
 app.use(express.urlencoded({ extended: true }));
 
-const Register = require("./router/auth");
+const authRouter = require("./routes/auth/auth");
 
-app.use("/auth/", Register);
+app.use("/auth/", authRouter);
 
-try {
-  const port = process.env.PORT || 5001;
-  app.listen(port, () => {
-    console.log(`karoci ${port} da iwlayapti >.<`);
-  });
-} catch (error) {
-  console.log(error);
-}
+app.listen(3000, () => {
+  console.log(`Server running 3000`);
+});
