@@ -1,18 +1,11 @@
-const mongoose = require("mongoose");
+const mongoose = require('mongoose')
 
-module.exports = () => {
-  const URI = "mongodb+srv://sardor:sardor7703@cluster0.hfzsm.mongodb.net/sever";
+module.exports = async () => {
+    try {
+        await mongoose.connect(process.env.MONGO_URI)
+    } catch (error) {
+        console.log(error);
+       
+    }
+}
 
-  mongoose.connect(URI, {
-    useNewUrlParser: true,
-  });
-  const db = mongoose.connection;
-
-  db.on("open", () => {
-    console.log("server running");
-  });
-
-  db.on("error", () => {
-    console.log("server error");
-  });
-};
