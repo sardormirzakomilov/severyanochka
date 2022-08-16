@@ -1,0 +1,52 @@
+.ShoppingCard {
+  width: 100%;
+  background: #ffffff;
+  margin-bottom: 25px;
+  padding: 5px 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  border-radius: 5px;
+  transition: 0.3s;
+  cursor: pointer;
+}
+.ShoppingCard:hover {
+  transform: scale(1.05);
+}
+.sh_c_h5{
+  max-height: 50px;
+  width: 100%;
+  overflow-x: auto;
+}
+
+.ShoppingCard img {
+  width: auto;
+  max-width: 100px;
+  height: 60px;
+  border: 1px solid #70c05b;
+  border-radius: 5px;
+}
+.textss{
+  max-width: 47%;
+overflow-x: auto;
+}
+h6 {
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 150%;
+  margin-top: 10px;
+  color: #414141;
+}
+.totalNumber {
+  padding: 8px;
+  color: #ffffff;
+  background: #70c05b;
+  border-radius: 4px;
+}
+.totalPrice {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 150%;
+  text-align: right;
+  color: #414141;
+}

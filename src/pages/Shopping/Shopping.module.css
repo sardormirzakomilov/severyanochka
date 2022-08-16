@@ -1,0 +1,72 @@
+.Shopping {
+  margin-bottom: 12%;
+}
+.left_shop {
+  width: 60%;
+  box-shadow: inset 0px 0px 40px 0px #414141;
+  max-height: 350px;
+  overflow: auto;
+  padding: 40px;
+  border-radius: 5px;
+}
+.right_shop {
+  width: 35%;
+  height: 350px;
+}
+.allPrice {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.minPrice {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 150%;
+  text-align: center;
+  padding: 5px 10px;
+  width: auto;
+  color: #ffffff;
+  background: #d80000;
+  border-radius: 4px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+h5 {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: #8f8f8f;
+}
+h2 {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 150%;
+  color: #414141;
+}
+.button {
+  width: 100%;
+  height: auto;
+  background: #fcd5ba;
+  border-radius: 4px;
+  font-weight: 400;
+  font-size: 24px;
+  padding: 18px 0;
+  color: #ff6633;
+  cursor: pointer;
+}
+.bonus {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 150%;
+
+  text-align: center;
+
+  padding: 5px 10px;
+
+  width: auto;
+  color: #ffffff;
+  cursor: pointer;
+  background: #70c05b;
+  border-radius: 4px;
+  margin-bottom: 20px;
+}

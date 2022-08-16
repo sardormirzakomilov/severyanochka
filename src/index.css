@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+  font-family: 'Rubik', sans-serif;
+}
+::-webkit-scrollbar{
+  width: 0;
+}
+body {
+  background: #fbf8ec;
+}
+
+nav {
+  margin: 13px 0;
+}
+
+.container {
+  /* width: 1150px; */
+  width: 60%;
+  margin: auto;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.row_ {
+  display: flex;
+  flex-wrap: wrap;
+ 
+}
+
+.row_sb {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.row_se {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+:focus {
+  outline: none;
+}
+
+.title_h2_36 {
+  margin-top: 120px;
+  margin-bottom: 40px;
+}
+
+.title_h2_big {
+  margin-top: 80px;
+  margin-bottom: 40px;
+}
+
+.h2_36 {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 150%;
+  color: #414141;
+}
+.h2_2_big {
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 150%;
+  color: #414141;
+  margin-bottom: 40px;
+}
+
+.row_sb .item:nth-child(odd) {
+  background: #E5FFDE;
+}
+
+.h2_36_right {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 186px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  text-align: center;
+  color: #606060;
+}
+
+
+.Card_div {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+  width: 100%;
+}
+
+@media (max-width:1199px) {
+
+  .container{
+    width: 80%;
+  }
+  .Card_div{
+    gap: 20px;
+    justify-content: space-around;
+  }
+}

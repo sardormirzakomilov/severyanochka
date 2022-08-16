@@ -1,0 +1,83 @@
+.Footer {
+  padding: 25px 0;
+  background: #f3e9c4;
+}
+
+.foot_nav ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 636px;
+}
+
+.foot_logos {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 144px;
+}
+li {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 150%;
+  color: #414141;
+  cursor: pointer;
+}
+li:hover{
+  color: #ff6633;
+ 
+}
+.foot_left {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 740px;
+}
+.foot_right {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 336px;
+}
+
+.foot_right h5 {
+  font-weight: 400;
+font-size: 16px;
+line-height: 150%;
+color: #414141;
+}
+.foot_right h5:hover{
+  color: #ff6633;
+}
+.foot_right i {
+  font-size: 20px;
+  color: #414141;
+}
+
+.call {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 24px;
+  width: 152px;
+  cursor: pointer;
+}
+.call:hover{
+  color: #ff6633;
+}
+
+@media (max-width:1199px) {
+  .foot_left,
+  .foot_right{
+    width: 100%;
+  }
+  .foot_right{
+    margin-top: 30px;
+  }
+}
+
+

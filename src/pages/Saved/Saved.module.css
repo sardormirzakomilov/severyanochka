@@ -1,0 +1,124 @@
+.Saved_left {
+  width: 20%;
+}
+
+.Saved_right {
+  width: 76%;
+}
+.Saved_filtr {
+  width: 100%;
+  height: 44px;
+  background: #f3f2f1;
+  border-radius: 4px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  color: #414141;
+  padding: 10px;
+}
+
+.Saved_bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 40px;
+}
+.Saved_bottom h5 {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: #000000;
+}
+.Saved_bottom button {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 150%;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #606060;
+  width: 85px;
+  height: 32px;
+  background: #f3f2f1;
+  border-radius: 4px;
+  display: flex;
+  justify-content: center;
+}
+
+.Saved_left form {
+  display: flex;
+  align-items: center;
+  /* flex-wrap: wrap; */
+  justify-content: space-between;
+  margin-top: 13px;
+}
+.Saved_left form input {
+  width: 47%;
+  background: #FFFFFF;
+border: 1px solid #BFBFBF;
+border-radius: 4px;
+}
+
+input[type="range"] {
+  box-sizing: border-box;
+  appearance: none;
+  width: 100%;
+  margin: 0;
+  padding: 0 2px;
+  /* Add some L/R padding to ensure box shadow of handle is shown */
+  overflow: hidden;
+  border: 0;
+  outline: none;
+  background: linear-gradient(#70c05b, #70c05b) no-repeat center;
+  /* Use a linear gradient to generate only the 2px height background */
+  background-size: 100% 10px;
+  pointer-events: none;
+}
+input[type="range"]::-webkit-slider-thumb {
+  height: 18px;
+  width: 18px;
+  border-radius: 28px;
+  background-color: #70c05b;
+  position: relative;
+  margin: 5px 0;
+  /* Add some margin to ensure box shadow is shown */
+  cursor: pointer;
+  appearance: none;
+  pointer-events: all;
+  box-shadow: 0 1px 4px 0.5px rgba(0, 0, 0, 0.25);
+}
+.multi_range {
+    position: relative;
+    margin-top: 15px;
+    margin-bottom: 100px;
+    width: 100%;
+  }
+  .multi_range input[type="range"] {
+    position: absolute;
+  }
+  
+  .multi_range input[type="range"]:nth-child(2) {
+    background: none;
+  }
+
+.saved_a a {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: #414141;
+  display: block;
+  margin-bottom: 30px;
+}
+
+.Saved_left .saved_but button {
+  padding: 8px;
+  width: 100%;
+  height: 40px;
+  background: #ff6633;
+  border-radius: 4px;
+  color: #ffffff;
+  cursor: pointer;
+}

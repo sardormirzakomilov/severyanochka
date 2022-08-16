@@ -1,0 +1,54 @@
+.KatalogCard {
+  position: relative;
+  transition: 1s !important;
+}
+.KatalogCard img {
+  width: 100%;
+  height: 100%;
+  border-radius: 4px;
+}
+.KatalogCard h3 {
+  width: 100%;
+  position: absolute;
+  bottom: 0px;
+  padding-left: 5%;
+  padding-bottom: 2%;
+  left: 0px;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 150%;
+  color: #ffffff;
+  background: linear-gradient(
+    to bottom,
+    rgba(217, 218, 220, 0) -50%,);
+  transition: 1s !important;
+  z-index: 50;
+}
+
+.KatalogCard:hover .border_div {
+  width: 80%;
+  height: 80% !important;
+  left: 10%;
+  top: 10%;
+  transition: .5s !important;
+  border: 2px solid  #70c05b;
+  border-radius: 4px;
+transition: .3s;
+background: linear-gradient(
+  to bottom,
+  rgba(217, 218, 220, 0) -50%,
+  #70c05b 95%
+);
+
+}   
+
+.border_div {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100% !important;
+  z-index: 51;
+  border: 1px solid transparent;
+  transition: .3s;
+}

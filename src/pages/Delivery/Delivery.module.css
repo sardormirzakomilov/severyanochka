@@ -1,0 +1,77 @@
+.delivery_left {
+  width: 40%;
+  background: #ffffff;
+  padding: 20px;
+  border: 1px solid #70c05b;
+  border-radius: 5px ;
+}
+
+.delivery_right {
+  width: 35%;
+  background: #ffffff;
+  border: 1px solid #70c05b;
+  border-radius: 5px ;
+  padding: 40px;
+}
+
+.minPrice {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 150%;
+    text-align: center;
+    padding: 5px 10px;
+    width: auto;
+    color: #ffffff;
+    background: #d80000;
+    border-radius: 4px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+form {
+  width: 100%;
+  text-align: center;
+}
+
+.input_label {
+  width: 100%;
+}
+.input_label input {
+  border: 1px solid #70c05b;
+  border-radius: 5px ;
+  background: transparent;
+}
+.row_del {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-bottom: 110px;
+}
+input {
+  width: 100%;
+  padding: 10px;
+  display: block;
+}
+textarea {
+  min-width: 100%;
+  max-width: 100%;
+  padding: 10px;
+  min-height: 100px;
+  max-height: 100px;
+  display: block;
+  font-size: 13px;
+  border: 1px solid #70c05b;
+  border-radius: 5px;
+}
+
+.delivery_left button {
+  display: block;
+  border: 1px solid #70c05b;
+  margin: auto;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.allPrice {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}

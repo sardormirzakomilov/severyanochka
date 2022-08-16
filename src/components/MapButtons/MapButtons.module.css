@@ -1,0 +1,23 @@
+.MapButtonss{
+    margin-bottom: 28px;
+}
+
+.MapButton {
+    padding: 8px;
+    width: 86px;
+    height: 32px;
+    background: #F3F2F1;
+    border-radius: 4px;
+    margin-right: 24px;
+    text-align: center;
+    color: #606060;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 150%;
+    border: none;
+    transition: .5s;
+}
+.MapButton:hover{
+    background: #70C05B;
+    color: #FFFFFF;
+}
